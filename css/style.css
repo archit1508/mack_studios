@@ -1,0 +1,335 @@
+/*body{
+	height: 100vh;
+}*/
+/*.navbar{
+	background-color: #ffffff;
+}*/
+
+/*Text Colors*/
+.fabNav,.navServices .nav-item a, .brandingP, .con3 table tr td:not(:first-child){
+	color: #646464;
+}
+.header1, .headerUI, .headerButton ,.navbar-collapse a, .con3 button{
+	color: #ffffff;
+}
+/*Headings*/
+.headerUI, .serviceHeading, .header1, .con3 table tr th, .con5 .row .col-md-4 h1{
+	font-family: 'Ubuntu';
+}
+.brandingP, .con3 table tr td, .con6{
+	font-family: 'Bodoni 72';
+}
+.serviceHeading{
+	padding: 30px 0px;
+}
+/*Sub Headings*/
+.serviceHeading, .con3 table tr th, .con3 table tr td{
+	text-align: center;
+}
+
+.navbar{
+	background-color: transparent;
+}
+.navServices li{
+	padding: 20px;
+}
+.navServices li a{
+	font-size: 1.1em;
+	text-decoration: none;
+	color:#000;
+}
+.navbar.scrolled{
+	height: 50px;
+	background-color: rgba(255,255,255);
+}
+.nav-link.scrolled{
+	color: #000;
+}
+.logo-nav.scrolled{
+	width: 50px;
+}
+.headerButton.scrolled{
+	padding: 5px 20px;
+	margin-left: 30px;
+}
+.fabNav{
+	font-size: 3.5em;
+	padding: 15px;
+}
+.con1{
+	background-image: url("../img/Asset6.png");
+/*	background-color: #fcfcfc;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.header1{
+	width: 550px;
+	padding: 30px 60px 0px 60px;
+	margin-top: 210px;
+}
+/*.header1 span{
+	text-decoration: underline;
+	text-decoration-color: #800000;
+	background-color: #800000;
+	padding: 1px 5px 5px 5px;
+}*/
+.headerImage{
+	width: 450px;
+	margin-top: 105px;
+	margin-right: 60px;
+}
+.headerButton{
+	padding: 10px 30px;
+	background-color: #7d0633;
+	border:none;
+	border-radius: 10px;
+	margin-left: 60px; 
+}
+.con1 .headerButton{
+	margin-top: 30px;
+}
+
+/*con2*/
+
+.con2{
+	height: 94vh;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.con2 .row{
+	height: 100%;
+}
+/*.con2 .row .col-md-8{
+	background-color: #e2e2e2;
+}*/
+.con2 .row .col-md-8 img{
+	width: 750px;
+	margin: 30px 36px;
+/*	box-shadow: 5px 5px 5px #646464;*/
+}
+.brandingP{
+	padding: 0px 30px;
+	font-size: 1rem;
+}
+.brandingButton{
+	padding: 10px 15px;
+	background-color: transparent;
+	color: #800000;
+	border:1px solid #800000;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+/*con3*/
+.con3{margin-bottom: 60px;}
+.con3 table{
+	width: 100%;
+	margin: 0px 0px;
+	box-shadow: 5px 5px 20px #808080;
+}
+.con3 table tr td{
+	padding: 10px 15px;
+	width: 100px;
+}
+.con3 table tr td:not(:last-child){
+	border-right: 1px solid #e8e8e8;
+}
+.con3 table tr td:not(:first-child){
+	font-size: 0.8rem;
+}
+.con3 table tr td:first-child{
+	text-align: left;
+}
+.con3 table tr th{
+	color: #800000;
+}
+.con3 table tr td a{
+	color: #800000;
+}
+
+/*con4*/
+.con4{
+	margin-bottom: 45px;
+}
+.con4 .row{
+	padding: 180px 15px;
+}
+.con4 .row .col-md-7 img{
+	width: 700px;
+}
+.headerUI{
+	margin-top: 105px;
+	color: #000;
+	border-left: 5px solid #800000;
+	padding: 0 0 0 10px;
+}
+
+.con5{
+	margin-bottom: 10px;
+	height: 95vh;
+}
+.con5 .col-md-8{
+	max-height: 700px;
+	padding: 30px 45px;
+}
+.mainImgShopify{
+	width: 100%;
+}
+.con5 .col-md-4{
+	padding: 180px 0px;
+}
+.shopifyHeader{
+	padding: 0px 60px;
+	font-size: 2rem;
+	font-weight: lighter;
+}
+.shopifyLink{
+	padding: 15px 60px;
+}
+.altImgShopify{
+	width: 80%;
+}
+.altImgShopify:parent{
+	border:1px solid #ebebeb;
+}
+
+.con6{
+	background-color: #000000;
+	color: #fff;
+	padding: 30px 15px;
+}
+
+.modal{
+	border-radius: 0;
+}
+.modal-header{
+	border:none;
+	background-color: #800000;
+	color: #fff;
+}
+.modal form input{
+	margin: 15px 0px;
+	padding: 15px;
+	border-radius: 0;
+}
+.modal form .col {
+	padding: 5px 45px;
+}
+.modal form button{
+	background-color: transparent;
+	border:1px solid #800000;
+	color: #800000;
+	margin-bottom: 30px;
+}
+.close span{
+	color: #fff;
+}
+.mobShow{
+	display: none;
+}
+@media only screen and (max-device-width : 1024px){
+	.headerButton{
+		display: none;
+	}
+	.con1{
+		height: 130vh;
+	}
+	.header1{
+		width: 400px;
+		padding: 15px 90px 0px 15px;
+		font-size: 2em;
+		margin-top: 180px;
+		margin-left: 30px;
+	}
+	.headerImage{
+		width: 300px;
+	}
+	.navServices li a{
+		width: 110px;
+		text-align: center;
+		font-size: 0.5em;
+	}
+	.serviceHeading{
+		padding: 30px 0px 0px 0px;
+	}
+	.brandingP{font-size: 0.7rem;padding: 0;}
+	.brandingButton{margin-top: 0;}
+	.headerUI{
+		margin-top: 0;
+		font-size: 2rem;
+	}
+	.con5{
+		margin-bottom: 150px;
+	}
+	.con5 .col-md-4,.shopifyHeader{
+		padding: 0;
+	}
+	.shopifyHeader{
+		padding: 30px 15px 15px 15px;
+		font-size: 1.4rem;
+	}
+	.shopifyLink{
+		padding: 0 0 0 15px;
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-device-width : 767px){
+	.mobShow{
+		display: initial;
+	}
+	.mobNoShow{
+		display: none;
+	}
+	.navbar-collapse{
+		text-align: right;
+	}
+	.nav-link{
+		margin: 5px 0px;
+		padding: 0;
+		font-size: 0.8em;
+	}
+	.navServices{
+		margin-top: -90px;
+		padding: 15px;
+	}
+	.navServices li{
+		padding: 0;
+	}
+	.fabNav{
+		font-size: 2em;
+	}
+	.navServices li a{
+		font-size: 0.4em;
+		width: initial;
+	}
+	.con2{
+		margin-top: 15px;
+	}
+	.con2 .row .col-md-8 img{
+		margin:0;
+	}
+	.headerUI{
+		margin-top: 45px;
+		font-size: 2em;
+	}
+	.header1{
+		width: initial;
+		padding: 30px;
+		margin-top: 250px;
+		text-align: center;
+		margin-left: 0;
+	}
+	.headerButtonLi{
+		margin: auto;
+		width: 150px;
+	}
+	.headerButton{margin: 0;display: initial;}
+	.con1{
+		height: 100vh;
+	}
+	.shopifyHeader, .con5 .col-md-4 p{
+		text-align: center;
+	}
+}
